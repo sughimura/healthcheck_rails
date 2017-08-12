@@ -1,7 +1,7 @@
 module HealthcheckRails
   class HealthcheckController < ApplicationController
     def index
-      render nothing: true, status: :ok
+      head status: :ok
     end
   end
 end
